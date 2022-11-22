@@ -1,3 +1,8 @@
+/*
+Programa para el cálculo de conversiones de unidades de temperatura.
+Elaboró Uriel Solalíndez Aguilar
+*/
+
 #include <stdio.h>
 #include <math.h>
 
@@ -24,6 +29,8 @@ void kelToCelsius (){
         c=k-273.25;
         printf("Insertó: %f ºK\n su equivaente en ºC es: %f ºC\n", k, c);
 }
+
+//U.S.
 
 void kelToFahrenheit (){
 	float k, f;
